@@ -1,0 +1,696 @@
+;;;;
+File id ;File path;Word id ;Label ;Speaker id 
+1;ASMDD/speaker_14_b_100/9.wav;9;Correct ;14
+2;ASMDD/speaker_00_g_100/9.wav;9;Correct ;0
+3;ASMDD/speaker_01_g_100/9_N.wav;9;Incorrect ;1
+4;ASMDD/speaker_02_g_100/09.wav;9;Correct ;2
+5;ASMDD/speaker_03_b_100/9.wav;9;Correct;3
+6;ASMDD/speaker_04_g_100/09_N.wav;9;Incorrect ;4
+7;ASMDD/speaker_05_g_100/9.wav;9;Correct;5
+8;ASMDD/speaker_07_b_100/9_N.wav;9;Incorrect ;7
+9;ASMDD/speaker_06_g_100/9.wav;9;Correct ;6
+10;ASMDD/speaker_09_b_100/09.wav;9;Correct;9
+11;ASMDD/speaker_10_b_100/09.wav;9;Correct;10
+12;ASMDD/speaker_12_b_100/9.wav;9;Correct;12
+13;ASMDD/speaker_13_b_100/9.wav;9;Correct;13
+14;ASMDD/speaker_15_b_100/09.wav;9;Correct;15
+15;ASMDD/speaker_16_b_100/09.wav;9;Correct ;16
+16;ASMDD/speaker_17_b_100/09.wav;9;Correct;17
+17;ASMDD/speaker_19_b_100/09.wav;9;Correct ;19
+18;ASMDD/speaker_18_b_100/09.wav;9;Correct;18
+19;ASMDD/speaker_20_b_100/09.wav;9;Correct;20
+20;ASMDD/speaker_21_b_100/09.wav;9;Correct;21
+21;ASMDD/speaker_22_b_100/09.wav;9;Correct;22
+22;ASMDD/speaker_24_g_100/09.wav;9;Correct;24
+23;ASMDD/speaker_30_b_100/9.wav;9;correct ;30
+24;ASMDD/speaker_29_b_100/09.wav;9;Correct;29
+25;ASMDD/speaker_28_b_100/9.wav;9;Correct;28
+26;ASMDD/speaker_27_b_100/09.wav;9;Correct;27
+27;ASMDD/speaker_26_g_100/9.wav;9;Correct;26
+28;ASMDD/speaker_25_b_100/09.wav;9;Correct;25
+29;ASMDD/speaker_31_g_50/9.wav;9;Correct;31
+30;ASMDD/speaker_33_g_50/09.wav;9;Correct;33
+31;ASMDD/speaker_34_b_50/09.wav;9;Correct;34
+32;ASMDD/speaker_36_b_50/09.wav;9;Correct;36
+33;ASMDD/speaker_37_g_50/09.wav;9;Correct;37
+34;ASMDD/speaker_45_b_50/9.wav;9;Correct;45
+35;ASMDD/speaker_51_b_50/9.wav;9;Correct;51
+36;ASMDD/speaker_52_b_50/9.wav;9;Correct;52
+37;ASMDD/speaker_54_b_50/9.wav;9;Correct;54
+38;ASMDD/speaker_61_b_50/09.wav;9;Correct;61
+39;ASMDD/speaker_62_b_50/09.wav;9;Correct;62
+40;ASMDD/speaker_63_g_50/09.wav;9;Correct;63
+41;ASMDD/speaker_64_b_50/09.wav;9;Correct;64
+42;ASMDD/speaker_65_b_50/09.wav;9;Correct;65
+43;ASMDD/speaker_69_b_50/09.wav;9;Correct;69
+44;ASMDD/speaker_70_g_50/09.wav;9;Correct;70
+45;ASMDD/speaker_73_b_50/09.wav;9;Correct;73
+46;ASMDD/speaker_74_b_50/09.wav;9;Correct;74
+47;ASMDD/speaker_75_b_50/09.wav;9;Correct;75
+48;ASMDD/speaker_76_b_50/09.wav;9;Correct;76
+49;ASMDD/speaker_77_b_50/09.wav;9;Correct;77
+50;ASMDD/speaker_78_b_50/09.wav;9;Correct;78
+51;ASMDD/speaker_79_g_50/09.wav;9;Correct;79
+52;ASMDD/speaker_82_b_50/09.wav;9;Correct;82
+53;ASMDD/speaker_84_g_50/09.wav;9;Correct;84
+54;ASMDD/speaker_83_b_50/9.wav;9;Correct;83
+55;ASMDD/speaker_85_g_50/09.wav;9;Correct;85
+56;ASMDD/speaker_86_b_50/09.wav;9;Correct;86
+57;ASMDD/speaker_87_b_50/09.wav;9;Correct;87
+58;ASMDD/speaker_88_g_50/9.wav;9;Correct;88
+59;ASMDD/speaker_89_b_50/9.wav;9;Correct;89
+60;ASMDD/speaker_90_b_50/09.wav;9;Correct;90
+61;ASMDD/speaker_94_b_50/09.wav;9;Correct;94
+62;ASMDD/speaker_95_b_50/9.wav;9;Correct;95
+63;ASMDD/speaker_97_g_50/9.wav;9;Correct;97
+64;ASMDD/speaker_98_b_50/9.wav;9;Correct;98
+65;ASMDD/speaker_99_b_50/9.wav;9;Correct;99
+66;ASMDD/speaker_32_g_50/09.wav;9;Correct;32
+67;ASMDD/speaker_11_b_100/9_N.wav;9;Incorrect ;11
+68;ASMDD/speaker_53_b_50/9_N.wav;9;Incorrect ;53
+69;ASMDD/speaker_68_b_50/9_N.wav;9;Incorrect ;68
+70;ASMDD/speaker_81_g_50/9_N.wav;9;Incorrect ;81
+71;ASMDD/speaker_23_b_100/09_N.wav;9;Incorrect ;23
+72;ASMDD/speaker_30_b_100/15.wav;15;Correct;30
+73;ASMDD/speaker_29_b_100/15.wav;15;Correct;29
+74;ASMDD/speaker_28_b_100/15.wav;15;Correct;28
+75;ASMDD/speaker_27_b_100/15.wav;15;Correct;27
+76;ASMDD/speaker_26_g_100/15.wav;15;Correct;26
+77;ASMDD/speaker_25_b_100/15.wav;15;Correct;25
+78;ASMDD/speaker_31_g_50/15.wav;15;Correct;31
+79;ASMDD/speaker_41_b_50/15.wav;15;Correct;41
+80;ASMDD/speaker_45_b_50/15.wav;15;Correct;45
+81;ASMDD/speaker_46_b_50/15.wav;15;Correct;46
+82;ASMDD/speaker_51_b_50/15.wav;15;Correct;51
+83;ASMDD/speaker_53_b_50/15.wav;15;Correct;53
+84;ASMDD/speaker_55_b_50/15.wav;15;Correct;55
+85;ASMDD/speaker_61_b_50/15.wav;15;Correct;61
+86;ASMDD/speaker_62_b_50/15.wav;15;Correct;62
+87;ASMDD/speaker_63_g_50/15.wav;15;Correct;63
+88;ASMDD/speaker_64_b_50/15.wav;15;Correct;64
+89;ASMDD/speaker_65_b_50/15.wav;15;Correct;65
+90;ASMDD/speaker_68_b_50/15.wav;15;Correct;68
+91;ASMDD/speaker_69_b_50/15.wav;15;Correct;69
+92;ASMDD/speaker_70_g_50/15.wav;15;Correct;70
+93;ASMDD/speaker_73_b_50/15.wav;15;Correct;73
+94;ASMDD/speaker_74_b_50/15.wav;15;Correct;74
+95;ASMDD/speaker_75_b_50/15.wav;15;Correct;75
+96;ASMDD/speaker_76_b_50/15.wav;15;Correct;76
+97;ASMDD/speaker_77_b_50/15.wav;15;Correct;77
+98;ASMDD/speaker_78_b_50/15.wav;15;Correct;78
+99;ASMDD/speaker_79_g_50/15.wav;15;Correct;79
+100;ASMDD/speaker_81_g_50/15.wav;15;Correct;81
+101;ASMDD/speaker_84_g_50/15.wav;15;Correct;84
+102;ASMDD/speaker_83_b_50/15.wav;15;Correct;83
+103;ASMDD/speaker_85_g_50/15.wav;15;Correct;85
+104;ASMDD/speaker_86_b_50/15.wav;15;Correct;86
+105;ASMDD/speaker_87_b_50/15.wav;15;Correct;87
+106;ASMDD/speaker_88_g_50/15.wav;15;Correct;88
+107;ASMDD/speaker_89_b_50/15.wav;15;Correct;89
+108;ASMDD/speaker_90_b_50/15.wav;15;Correct;90
+109;ASMDD/speaker_91_b_50/15.wav;15;Correct;91
+110;ASMDD/speaker_95_b_50/15.wav;15;Correct;95
+111;ASMDD/speaker_97_g_50/15.wav;15;Correct;97
+112;ASMDD/speaker_98_b_50/15.wav;15;Correct;98
+113;ASMDD/speaker_99_b_50/15.wav;15;Correct;99
+114;ASMDD/speaker_14_b_100/15.wav;15;Correct;14
+115;ASMDD/speaker_00_g_100/15.wav;15;Correct;0
+116;ASMDD/speaker_01_g_100/15.wav;15;Correct;1
+117;ASMDD/speaker_02_g_100/15.wav;15;Correct;2
+118;ASMDD/speaker_04_g_100/15.wav;15;Correct;4
+119;ASMDD/speaker_05_g_100/15.wav;15;Correct;5
+120;ASMDD/speaker_07_b_100/15.wav;15;Correct;7
+121;ASMDD/speaker_06_g_100/15.wav;15;Correct;6
+122;ASMDD/speaker_09_b_100/15.wav;15;Correct;9
+123;ASMDD/speaker_10_b_100/15.wav;15;Correct;10
+124;ASMDD/speaker_11_b_100/15.wav;15;Correct;11
+125;ASMDD/speaker_13_b_100/15.wav;15;Correct;13
+126;ASMDD/speaker_15_b_100/15.wav;15;Correct;15
+127;ASMDD/speaker_16_b_100/15.wav;15;Correct;16
+128;ASMDD/speaker_17_b_100/15.wav;15;Correct;17
+129;ASMDD/speaker_19_b_100/15.wav;15;Correct;19
+130;ASMDD/speaker_18_b_100/15.wav;15;Correct;18
+131;ASMDD/speaker_20_b_100/15.wav;15;Correct;20
+132;ASMDD/speaker_21_b_100/15.wav;15;Correct;21
+133;ASMDD/speaker_32_g_50/015.wav;15;Correct;32
+134;ASMDD/speaker_33_g_50/015.wav;15;Correct;33
+135;ASMDD/speaker_34_b_50/015.wav;15;Correct;34
+136;ASMDD/speaker_35_b_50/015.wav;15;Correct;35
+137;ASMDD/speaker_82_b_50/15_N.wav;15;Incorrect ;82
+138;ASMDD/speaker_94_b_50/15_N.wav;15;Incorrect;94
+139;ASMDD/speaker_03_b_100/15_N.wav;15;Incorrect;3
+140;ASMDD/speaker_08_g_100/15_N.wav;15;Incorrect;8
+141;ASMDD/speaker_23_b_100/15_N.wav;15;Incorrect;23
+142;ASMDD/speaker_24_g_100/15_N.wav;15;Incorrect;24
+143;ASMDD/speaker_36_b_50/15_N.wav;15;Incorrect;36
+144;ASMDD/speaker_37_g_50/15_N.wav;15;Incorrect;37
+145;ASMDD/speaker_52_b_50/15_N.wav;15;Incorrect;52
+146;ASMDD/speaker_54_b_50/15_N.wav;15;Incorrect;54
+147;ASMDD/speaker_14_b_100/22.wav;22;Correct;14
+148;ASMDD/speaker_00_g_100/22.wav;22;Correct;0
+149;ASMDD/speaker_01_g_100/22.wav;22;Correct;1
+150;ASMDD/speaker_02_g_100/22.wav;22;Correct;2
+151;ASMDD/speaker_03_b_100/22.wav;22;Correct;3
+152;ASMDD/speaker_05_g_100/22.wav;22;Correct;5
+153;ASMDD/speaker_07_b_100/22.wav;22;Correct;7
+154;ASMDD/speaker_06_g_100/22.wav;22;Correct;6
+155;ASMDD/speaker_09_b_100/22.wav;22;Correct;9
+156;ASMDD/speaker_11_b_100/22.wav;22;Correct;11
+157;ASMDD/speaker_12_b_100/22.wav;22;Correct;12
+158;ASMDD/speaker_13_b_100/22.wav;22;Correct;13
+159;ASMDD/speaker_15_b_100/22.wav;22;Correct;15
+160;ASMDD/speaker_16_b_100/22.wav;22;Correct;16
+161;ASMDD/speaker_17_b_100/22.wav;22;Correct;17
+162;ASMDD/speaker_19_b_100/22.wav;22;Correct;19
+163;ASMDD/speaker_18_b_100/22.wav;22;Correct;18
+164;ASMDD/speaker_20_b_100/22.wav;22;Correct;20
+165;ASMDD/speaker_21_b_100/22.wav;22;Correct;21
+166;ASMDD/speaker_22_b_100/22.wav;22;Correct;22
+167;ASMDD/speaker_29_b_100/22.wav;22;Correct;29
+168;ASMDD/speaker_27_b_100/22.wav;22;Correct;27
+169;ASMDD/speaker_26_g_100/22.wav;22;Correct;26
+170;ASMDD/speaker_25_b_100/22.wav;22;Correct;25
+171;ASMDD/speaker_31_g_50/22.wav;22;Correct;31
+172;ASMDD/speaker_41_b_50/22.wav;22;Correct;41
+173;ASMDD/speaker_45_b_50/22.wav;22;Correct;45
+174;ASMDD/speaker_46_b_50/22.wav;22;Correct;46
+175;ASMDD/speaker_51_b_50/22.wav;22;Correct;51
+176;ASMDD/speaker_52_b_50/22.wav;22;Correct;52
+177;ASMDD/speaker_53_b_50/22.wav;22;Correct;53
+178;ASMDD/speaker_54_b_50/22.wav;22;Correct;54
+179;ASMDD/speaker_55_b_50/22.wav;22;Correct;55
+180;ASMDD/speaker_61_b_50/22.wav;22;Correct;61
+181;ASMDD/speaker_62_b_50/22.wav;22;Correct;62
+182;ASMDD/speaker_63_g_50/22.wav;22;Correct;63
+183;ASMDD/speaker_64_b_50/22.wav;22;Correct;64
+184;ASMDD/speaker_65_b_50/22.wav;22;Correct;65
+185;ASMDD/speaker_69_b_50/22.wav;22;Correct;69
+186;ASMDD/speaker_70_g_50/22.wav;22;Correct;70
+187;ASMDD/speaker_73_b_50/22.wav;22;Correct;73
+188;ASMDD/speaker_74_b_50/22.wav;22;Correct;74
+189;ASMDD/speaker_75_b_50/22.wav;22;Correct;75
+190;ASMDD/speaker_76_b_50/22.wav;22;Correct;76
+191;ASMDD/speaker_77_b_50/22.wav;22;Correct;77
+192;ASMDD/speaker_78_b_50/22.wav;22;Correct;78
+193;ASMDD/speaker_79_g_50/22.wav;22;Correct;79
+194;ASMDD/speaker_81_g_50/22.wav;22;Correct;81
+195;ASMDD/speaker_82_b_50/22.wav;22;Correct;82
+196;ASMDD/speaker_84_g_50/22.wav;22;Correct;84
+197;ASMDD/speaker_83_b_50/22.wav;22;Correct;83
+198;ASMDD/speaker_85_g_50/22.wav;22;Correct;85
+199;ASMDD/speaker_86_b_50/22.wav;22;Correct;86
+200;ASMDD/speaker_87_b_50/22.wav;22;Correct;87
+201;ASMDD/speaker_88_g_50/22.wav;22;Correct;88
+202;ASMDD/speaker_89_b_50/22.wav;22;Correct;89
+203;ASMDD/speaker_91_b_50/22.wav;22;Correct;91
+204;ASMDD/speaker_94_b_50/22.wav;22;Correct;94
+205;ASMDD/speaker_97_g_50/22.wav;22;Correct;97
+206;ASMDD/speaker_98_b_50/22.wav;22;Correct;98
+207;ASMDD/speaker_99_b_50/22.wav;22;Correct;99
+208;ASMDD/speaker_32_g_50/022.wav;22;Correct;32
+209;ASMDD/speaker_33_g_50/022.wav;22;Correct;33
+210;ASMDD/speaker_34_b_50/022.wav;22;Correct;34
+211;ASMDD/speaker_35_b_50/022.wav;22;Correct;35
+212;ASMDD/speaker_36_b_50/022.wav;22;Correct;36
+213;ASMDD/speaker_37_g_50/022.wav;22;Correct;37
+214;ASMDD/speaker_04_g_100/22_N.wav;22;Incorrect ;4
+215;ASMDD/speaker_08_g_100/22_N.wav;22;Incorrect ;8
+216;ASMDD/speaker_23_b_100/22_N.wav;22;Incorrect ;23
+217;ASMDD/speaker_30_b_100/22_N.wav;22;Incorrect ;30
+218;ASMDD/speaker_28_b_100/22_N.wav;22;Incorrect ;28
+219;ASMDD/speaker_68_b_50/22_N.wav;22;Incorrect ;68
+220;ASMDD/speaker_90_b_50/22_N.wav;22;Incorrect ;90
+221;ASMDD/speaker_95_b_50/22_N.wav;22;Incorrect ;95
+222;ASMDD/speaker_14_b_100/25.wav;25;Correct;14
+223;ASMDD/speaker_02_g_100/25.wav;25;Correct;2
+224;ASMDD/speaker_03_b_100/25.wav;25;Correct;3
+225;ASMDD/speaker_05_g_100/25.wav;25;Correct;5
+226;ASMDD/speaker_07_b_100/25.wav;25;Correct;7
+227;ASMDD/speaker_06_g_100/25.wav;25;Correct;6
+228;ASMDD/speaker_08_g_100/25.wav;25;Correct;8
+229;ASMDD/speaker_10_b_100/25.wav;25;Correct;10
+230;ASMDD/speaker_11_b_100/25.wav;25;Correct;11
+231;ASMDD/speaker_12_b_100/25.wav;25;Correct;12
+232;ASMDD/speaker_13_b_100/25.wav;25;Correct;13
+233;ASMDD/speaker_15_b_100/25.wav;25;Correct;15
+234;ASMDD/speaker_16_b_100/25.wav;25;Correct;16
+235;ASMDD/speaker_17_b_100/25.wav;25;Correct;17
+236;ASMDD/speaker_19_b_100/25.wav;25;Correct;19
+237;ASMDD/speaker_18_b_100/25.wav;25;Correct;18
+238;ASMDD/speaker_20_b_100/25.wav;25;Correct;20
+239;ASMDD/speaker_21_b_100/25.wav;25;Correct;21
+240;ASMDD/speaker_30_b_100/25.wav;25;Correct;30
+241;ASMDD/speaker_29_b_100/25.wav;25;Correct;29
+242;ASMDD/speaker_28_b_100/25.wav;25;Correct;28
+243;ASMDD/speaker_27_b_100/25.wav;25;Correct;27
+244;ASMDD/speaker_26_g_100/25.wav;25;Correct;26
+245;ASMDD/speaker_25_b_100/25.wav;25;Correct;25
+246;ASMDD/speaker_41_b_50/25.wav;25;Correct;41
+247;ASMDD/speaker_45_b_50/25.wav;25;Correct;45
+248;ASMDD/speaker_46_b_50/25.wav;25;Correct;46
+249;ASMDD/speaker_51_b_50/25.wav;25;Correct;51
+250;ASMDD/speaker_52_b_50/25.wav;25;Correct;52
+251;ASMDD/speaker_53_b_50/25.wav;25;Correct;53
+252;ASMDD/speaker_54_b_50/25.wav;25;Correct;54
+253;ASMDD/speaker_55_b_50/25.wav;25;Correct;55
+254;ASMDD/speaker_61_b_50/25.wav;25;Correct;61
+255;ASMDD/speaker_62_b_50/25.wav;25;Correct;62
+256;ASMDD/speaker_63_g_50/25.wav;25;Correct;63
+257;ASMDD/speaker_64_b_50/25.wav;25;Correct;64
+258;ASMDD/speaker_65_b_50/25.wav;25;Correct;65
+259;ASMDD/speaker_68_b_50/25.wav;25;Correct;68
+260;ASMDD/speaker_69_b_50/25.wav;25;Correct;69
+261;ASMDD/speaker_70_g_50/25.wav;25;Correct;70
+262;ASMDD/speaker_73_b_50/25.wav;25;Correct;73
+263;ASMDD/speaker_74_b_50/25.wav;25;Correct;74
+264;ASMDD/speaker_75_b_50/25.wav;25;Correct;75
+265;ASMDD/speaker_76_b_50/25.wav;25;Correct;76
+266;ASMDD/speaker_77_b_50/25.wav;25;Correct;77
+267;ASMDD/speaker_78_b_50/25.wav;25;Correct;78
+268;ASMDD/speaker_79_g_50/25.wav;25;Correct;79
+269;ASMDD/speaker_81_g_50/25.wav;25;Correct;81
+270;ASMDD/speaker_84_g_50/25.wav;25;Correct;84
+271;ASMDD/speaker_83_b_50/25.wav;25;Correct;83
+272;ASMDD/speaker_85_g_50/25.wav;25;Correct;85
+273;ASMDD/speaker_86_b_50/25.wav;25;Correct;86
+274;ASMDD/speaker_87_b_50/25.wav;25;Correct;87
+275;ASMDD/speaker_89_b_50/25.wav;25;Correct;89
+276;ASMDD/speaker_91_b_50/25.wav;25;Correct;91
+277;ASMDD/speaker_94_b_50/25.wav;25;Correct;94
+278;ASMDD/speaker_95_b_50/25.wav;25;Correct;95
+279;ASMDD/speaker_98_b_50/25.wav;25;Correct;98
+280;ASMDD/speaker_99_b_50/25.wav;25;Correct;99
+281;ASMDD/speaker_32_g_50/025.wav;25;Correct;32
+282;ASMDD/speaker_33_g_50/025.wav;25;Correct;33
+283;ASMDD/speaker_34_b_50/025.wav;25;Correct;34
+284;ASMDD/speaker_35_b_50/025.wav;25;Correct;35
+285;ASMDD/speaker_00_g_100/25_N.wav;25;Incorrect ;0
+286;ASMDD/speaker_04_g_100/25_N.wav;25;Incorrect ;4
+287;ASMDD/speaker_31_g_50/25_N.wav;25;Incorrect ;31
+288;ASMDD/speaker_36_b_50/25_N.wav;25;Incorrect ;36
+289;ASMDD/speaker_37_g_50/25_N.wav;25;Incorrect ;37
+290;ASMDD/speaker_88_g_50/25_N.wav;25;Incorrect ;88
+291;ASMDD/speaker_90_b_50/25_N.wav;25;Incorrect ;90
+292;ASMDD/speaker_97_g_50/25_N.wav;25;Incorrect ;97
+293;ASMDD/speaker_14_b_100/62.wav;62;Correct;14
+294;ASMDD/speaker_05_g_100/62.wav;62;Correct;5
+295;ASMDD/speaker_16_b_100/62.wav;62;Correct;16
+296;ASMDD/speaker_17_b_100/62.wav;62;Correct;17
+297;ASMDD/speaker_19_b_100/62.wav;62;Correct;19
+298;ASMDD/speaker_18_b_100/62.wav;62;Correct;18
+299;ASMDD/speaker_21_b_100/62.wav;62;Correct;21
+300;ASMDD/speaker_23_b_100/62.wav;62;Correct;23
+301;ASMDD/speaker_30_b_100/62.wav;62;Correct;30
+302;ASMDD/speaker_29_b_100/62.wav;62;Correct;29
+303;ASMDD/speaker_28_b_100/62.wav;62;Correct;28
+304;ASMDD/speaker_26_g_100/62.wav;62;Correct;26
+305;ASMDD/speaker_25_b_100/62.wav;62;Correct;25
+306;ASMDD/speaker_66_g_50/62.wav;62;Correct;66
+307;ASMDD/speaker_72_b_50/62.wav;62;Correct;72
+308;ASMDD/speaker_80_g_50/62.wav;62;Correct;80
+309;ASMDD/speaker_00_g_100/62_N.wav;62;Incorrect ;0
+310;ASMDD/speaker_01_g_100/62_N.wav;62;Incorrect ;1
+311;ASMDD/speaker_02_g_100/62_N.wav;62;Incorrect ;2
+312;ASMDD/speaker_06_g_100/62_N.wav;62;Incorrect ;6
+313;ASMDD/speaker_15_b_100/62_N.wav;62;Incorrect ;15
+314;ASMDD/speaker_20_b_100/62_N.wav;62;Incorrect ;20
+315;ASMDD/speaker_27_b_100/62_N.wav;62;Incorrect ;27
+316;ASMDD/speaker_67_g_50/62_N.wav;62;Incorrect ;67
+317;ASMDD/speaker_71_g_50/62_N.wav;62;Incorrect ;71
+318;ASMDD/speaker_14_b_100/72.wav;72;Correct;14
+319;ASMDD/speaker_02_g_100/72.wav;72;Correct;2
+320;ASMDD/speaker_03_b_100/72.wav;72;Correct;3
+321;ASMDD/speaker_05_g_100/72.wav;72;Correct;5
+322;ASMDD/speaker_07_b_100/72.wav;72;Correct;7
+323;ASMDD/speaker_06_g_100/72.wav;72;Correct;6
+324;ASMDD/speaker_08_g_100/72.wav;72;Correct;8
+325;ASMDD/speaker_10_b_100/72.wav;72;Correct;10
+326;ASMDD/speaker_12_b_100/72.wav;72;Correct;12
+327;ASMDD/speaker_13_b_100/72.wav;72;Correct;13
+328;ASMDD/speaker_15_b_100/72.wav;72;Correct;15
+329;ASMDD/speaker_16_b_100/72.wav;72;Correct;16
+330;ASMDD/speaker_17_b_100/72.wav;72;Correct;17
+331;ASMDD/speaker_19_b_100/72.wav;72;Correct;19
+332;ASMDD/speaker_18_b_100/72.wav;72;Correct;18
+333;ASMDD/speaker_20_b_100/72.wav;72;Correct;20
+334;ASMDD/speaker_21_b_100/72.wav;72;Correct;21
+335;ASMDD/speaker_29_b_100/72.wav;72;Correct;29
+336;ASMDD/speaker_28_b_100/72.wav;72;Correct;28
+337;ASMDD/speaker_26_g_100/72.wav;72;Correct;26
+338;ASMDD/speaker_67_g_50/72.wav;72;Correct;67
+339;ASMDD/speaker_72_b_50/72.wav;72;Correct;72
+340;ASMDD/speaker_80_g_50/72.wav;72;Correct;80
+341;ASMDD/speaker_00_g_100/72_N.wav;72;Incorrect ;0
+342;ASMDD/speaker_01_g_100/72_N.wav;72;Incorrect ;1
+343;ASMDD/speaker_09_b_100/72_N.wav;72;Incorrect ;9
+344;ASMDD/speaker_11_b_100/72_N.wav;72;Incorrect ;11
+345;ASMDD/speaker_22_b_100/72_N.wav;72;Incorrect ;22
+346;ASMDD/speaker_30_b_100/72_N.wav;72;Incorrect ;30
+347;ASMDD/speaker_25_b_100/72_N.wav;72;Incorrect ;25
+348;ASMDD/speaker_66_g_50/72_n.wav;72;Incorrect ;66
+349;ASMDD/speaker_02_g_100/83.wav;83;Correct;2
+350;ASMDD/speaker_03_b_100/83.wav;83;Correct;3
+351;ASMDD/speaker_04_g_100/83.wav;83;Correct;4
+352;ASMDD/speaker_07_b_100/83.wav;83;Correct;7
+353;ASMDD/speaker_06_g_100/83.wav;83;Correct;6
+354;ASMDD/speaker_09_b_100/83.wav;83;Correct;9
+355;ASMDD/speaker_10_b_100/83.wav;83;Correct;10
+356;ASMDD/speaker_11_b_100/83.wav;83;Correct;11
+357;ASMDD/speaker_12_b_100/83.wav;83;Correct;12
+358;ASMDD/speaker_15_b_100/83.wav;83;Correct;15
+359;ASMDD/speaker_17_b_100/83.wav;83;Correct;17
+360;ASMDD/speaker_19_b_100/83.wav;83;Correct;19
+361;ASMDD/speaker_18_b_100/83.wav;83;Correct;18
+362;ASMDD/speaker_21_b_100/83.wav;83;Correct;21
+363;ASMDD/speaker_23_b_100/83.wav;83;Correct;23
+364;ASMDD/speaker_28_b_100/83.wav;83;Correct;28
+365;ASMDD/speaker_26_g_100/83.wav;83;Correct;26
+366;ASMDD/speaker_25_b_100/83.wav;83;Correct;25
+367;ASMDD/speaker_66_g_50/83.wav;83;Correct;66
+368;ASMDD/speaker_72_b_50/83.wav;83;Correct;72
+369;ASMDD/speaker_00_g_100/83_N.wav;83;Incorrect ;0
+370;ASMDD/speaker_01_g_100/83_N.wav;83;Incorrect ;1
+371;ASMDD/speaker_05_g_100/83_N.wav;83;Incorrect ;5
+372;ASMDD/speaker_08_g_100/83_N.wav;83;Incorrect ;8
+373;ASMDD/speaker_13_b_100/83_N.wav;83;Incorrect ;13
+374;ASMDD/speaker_16_b_100/83_N.wav;83;Incorrect ;16
+375;ASMDD/speaker_20_b_100/83_N.wav;83;Incorrect ;20
+376;ASMDD/speaker_30_b_100/83_N.wav;83;Incorrect ;30
+377;ASMDD/speaker_29_b_100/83_N.wav;83;Incorrect ;29
+378;ASMDD/speaker_67_g_50/83_N.wav;83;Incorrect ;67
+379;ASMDD/speaker_71_g_50/83_N.wav;83;Incorrect ;71
+380;ASMDD/speaker_14_b_100/83_N.wav;83;Incorrect ;14
+381;ASMDD/speaker_14_b_100/74.wav;74;Correct;14
+382;ASMDD/speaker_02_g_100/74.wav;74;Correct;2
+383;ASMDD/speaker_05_g_100/74.wav;74;Correct;5
+384;ASMDD/speaker_07_b_100/74.wav;74;Correct;7
+385;ASMDD/speaker_06_g_100/74.wav;74;Correct;6
+386;ASMDD/speaker_08_g_100/74.wav;74;Correct;8
+387;ASMDD/speaker_09_b_100/74.wav;74;Correct;9
+388;ASMDD/speaker_10_b_100/74.wav;74;Correct;10
+389;ASMDD/speaker_11_b_100/74.wav;74;Correct;11
+390;ASMDD/speaker_12_b_100/74.wav;74;Correct;12
+391;ASMDD/speaker_15_b_100/74.wav;74;Correct;15
+392;ASMDD/speaker_16_b_100/74.wav;74;Correct;16
+393;ASMDD/speaker_17_b_100/74.wav;74;Correct;17
+394;ASMDD/speaker_19_b_100/74.wav;74;Correct;19
+395;ASMDD/speaker_18_b_100/74.wav;74;Correct;18
+396;ASMDD/speaker_21_b_100/74.wav;74;Correct;21
+397;ASMDD/speaker_23_b_100/74.wav;74;Correct;23
+398;ASMDD/speaker_28_b_100/74.wav;74;Correct;28
+399;ASMDD/speaker_27_b_100/74.wav;74;Correct;27
+400;ASMDD/speaker_26_g_100/74.wav;74;Correct;26
+401;ASMDD/speaker_25_b_100/74.wav;74;Correct;25
+402;ASMDD/speaker_66_g_50/74.wav;74;Correct;66
+403;ASMDD/speaker_71_g_50/74.wav;74;Correct;71
+404;ASMDD/speaker_80_g_50/74.wav;74;Correct;80
+405;ASMDD/speaker_00_g_100/74_N.wav;74;Incorrect ;0
+406;ASMDD/speaker_01_g_100/74_N.wav;74;Incorrect ;1
+407;ASMDD/speaker_03_b_100/74_N.wav;74;Incorrect ;3
+408;ASMDD/speaker_04_g_100/74_N.wav;74;Incorrect ;4
+409;ASMDD/speaker_13_b_100/74_N.wav;74;Incorrect ;13
+410;ASMDD/speaker_18_b_100/74_N.wav;74;Incorrect ;18
+411;ASMDD/speaker_20_b_100/74_N.wav;74;Incorrect ;20
+412;ASMDD/speaker_22_b_100/74_N.wav;74;Incorrect ;22
+413;ASMDD/speaker_30_b_100/74_N.wav;74;Incorrect ;30
+414;ASMDD/speaker_29_b_100/74_N.wav;74;Incorrect ;29
+415;ASMDD/speaker_67_g_50/74_N.wav;74;Incorrect ;67
+416;ASMDD/speaker_14_b_100/86.wav;86;Correct;14
+417;ASMDD/speaker_01_g_100/86.wav;86;Correct;1
+418;ASMDD/speaker_02_g_100/86.wav;86;Correct;2
+419;ASMDD/speaker_03_b_100/86.wav;86;Correct;3
+420;ASMDD/speaker_05_g_100/86.wav;86;Correct;5
+421;ASMDD/speaker_08_g_100/86.wav;86;Correct;8
+422;ASMDD/speaker_11_b_100/86.wav;86;Correct;11
+423;ASMDD/speaker_12_b_100/86.wav;86;Correct;12
+424;ASMDD/speaker_15_b_100/86.wav;86;Correct;15
+425;ASMDD/speaker_16_b_100/86.wav;86;Correct;16
+426;ASMDD/speaker_17_b_100/86.wav;86;Correct;17
+427;ASMDD/speaker_19_b_100/86.wav;86;Correct;19
+428;ASMDD/speaker_18_b_100/86.wav;86;Correct;18
+429;ASMDD/speaker_20_b_100/86.wav;86;Correct;20
+430;ASMDD/speaker_21_b_100/86.wav;86;Correct;21
+431;ASMDD/speaker_22_b_100/86.wav;86;Correct;22
+432;ASMDD/speaker_23_b_100/86.wav;86;Correct;23
+433;ASMDD/speaker_29_b_100/86.wav;86;Correct;29
+434;ASMDD/speaker_26_g_100/86.wav;86;Correct;26
+435;ASMDD/speaker_25_b_100/86.wav;86;Correct;25
+436;ASMDD/speaker_66_g_50/86.wav;86;Correct;66
+437;ASMDD/speaker_71_g_50/86.wav;86;Correct;71
+438;ASMDD/speaker_72_b_50/86.wav;86;Correct;72
+439;ASMDD/speaker_80_g_50/86.wav;86;Correct;80
+440;ASMDD/speaker_00_g_100/86_N.wav;86;Incorrect ;0
+441;ASMDD/speaker_03_b_100/86_N.wav;86;Incorrect ;3
+442;ASMDD/speaker_04_g_100/86_N.wav;86;Incorrect ;4
+443;ASMDD/speaker_07_b_100/86_N.wav;86;Incorrect ;7
+444;ASMDD/speaker_06_g_100/86_N.wav;86;Incorrect ;6
+445;ASMDD/speaker_13_b_100/86_N.wav;86;Incorrect ;13
+446;ASMDD/speaker_30_b_100/86_N.wav;86;Incorrect ;30
+447;ASMDD/speaker_28_b_100/86_N.wav;86;Incorrect ;28
+448;ASMDD/speaker_67_g_50/86_N.wav;86;Incorrect ;67
+449;ASMDD/speaker_14_b_100/92.wav;92;Correct;14
+450;ASMDD/speaker_01_g_100/92.wav;92;Correct;1
+451;ASMDD/speaker_02_g_100/92.wav;92;Correct;2
+452;ASMDD/speaker_03_b_100/92.wav;92;Correct;3
+453;ASMDD/speaker_05_g_100/92.wav;92;Correct;5
+454;ASMDD/speaker_07_b_100/92.wav;92;Correct;7
+455;ASMDD/speaker_09_b_100/92.wav;92;Correct;9
+456;ASMDD/speaker_10_b_100/92.wav;92;Correct;10
+457;ASMDD/speaker_13_b_100/92.wav;92;Correct;13
+458;ASMDD/speaker_15_b_100/92.wav;92;Correct;15
+459;ASMDD/speaker_16_b_100/92.wav;92;Correct;16
+460;ASMDD/speaker_17_b_100/92.wav;92;Correct;17
+461;ASMDD/speaker_18_b_100/92.wav;92;Correct;18
+462;ASMDD/speaker_20_b_100/92.wav;92;Correct;20
+463;ASMDD/speaker_21_b_100/92.wav;92;Correct;21
+464;ASMDD/speaker_22_b_100/92.wav;92;Correct;22
+465;ASMDD/speaker_28_b_100/92.wav;92;Correct;28
+466;ASMDD/speaker_27_b_100/92.wav;92;Correct;27
+467;ASMDD/speaker_26_g_100/92.wav;92;Correct;26
+468;ASMDD/speaker_25_b_100/92.wav;92;Correct;25
+469;ASMDD/speaker_66_g_50/92.wav;92;Correct;66
+470;ASMDD/speaker_71_g_50/92.wav;92;Correct;71
+471;ASMDD/speaker_80_g_50/92.wav;92;Correct;80
+472;ASMDD/speaker_00_g_100/92_N.wav;92;Incorrect ;0
+473;ASMDD/speaker_04_g_100/92_N.wav;92;Incorrect ;4
+474;ASMDD/speaker_06_g_100/92_N.wav;92;Incorrect ;6
+475;ASMDD/speaker_08_g_100/92_N.wav;92;Incorrect ;8
+476;ASMDD/speaker_11_b_100/92_N.wav;92;Incorrect ;11
+477;ASMDD/speaker_12_b_100/92_N.wav;92;Incorrect ;12
+478;ASMDD/speaker_19_b_100/92_N.wav;92;Incorrect ;19
+479;ASMDD/speaker_23_b_100/92_N.wav;92;Incorrect ;23
+480;ASMDD/speaker_30_b_100/92_N.wav;92;Incorrect ;30
+481;ASMDD/speaker_29_b_100/92_N.wav;92;Incorrect ;29
+482;ASMDD/speaker_67_g_50/92_N.wav;92;Incorrect ;67
+483;ASMDD/speaker_72_b_50/92_N.wav;92;Incorrect ;72
+484;ASMDD/speaker_14_b_100/55.wav;55;Correct;14
+485;ASMDD/speaker_03_b_100/55.wav;55;Correct;3
+486;ASMDD/speaker_09_b_100/55.wav;55;Correct;9
+487;ASMDD/speaker_10_b_100/55.wav;55;Correct;10
+488;ASMDD/speaker_11_b_100/55.wav;55;Correct;11
+489;ASMDD/speaker_12_b_100/55.wav;55;Correct;12
+490;ASMDD/speaker_15_b_100/55.wav;55;Correct;15
+491;ASMDD/speaker_16_b_100/55.wav;55;Correct;16
+492;ASMDD/speaker_17_b_100/55.wav;55;Correct;17
+493;ASMDD/speaker_19_b_100/55.wav;55;Correct;19
+494;ASMDD/speaker_18_b_100/55.wav;55;Correct;18
+495;ASMDD/speaker_20_b_100/55.wav;55;Correct;20
+496;ASMDD/speaker_21_b_100/55.wav;55;Correct;21
+497;ASMDD/speaker_23_b_100/55.wav;55;Correct;23
+498;ASMDD/speaker_29_b_100/55.wav;55;Correct;29
+499;ASMDD/speaker_28_b_100/55.wav;55;Correct;28
+500;ASMDD/speaker_27_b_100/55.wav;55;Correct;27
+501;ASMDD/speaker_26_g_100/55.wav;55;Correct;26
+502;ASMDD/speaker_66_g_50/55.wav;55;Correct;66
+503;ASMDD/speaker_72_b_50/55.wav;55;Correct;72
+504;ASMDD/speaker_80_g_50/55.wav;55;Correct;80
+505;ASMDD/speaker_00_g_100/55_N.wav;55;Incorrect;0
+506;ASMDD/speaker_01_g_100/55_N.wav;55;Incorrect;1
+507;ASMDD/speaker_02_g_100/55_N.wav;55;Incorrect;2
+508;ASMDD/speaker_04_g_100/55_N.wav;55;Incorrect;4
+509;ASMDD/speaker_05_g_100/55_N.wav;55;Incorrect;5
+510;ASMDD/speaker_07_b_100/55_N.wav;55;Incorrect;7
+511;ASMDD/speaker_06_g_100/55_N.wav;55;Incorrect;6
+512;ASMDD/speaker_08_g_100/55_N.wav;55;Incorrect;8
+513;ASMDD/speaker_13_b_100/55_N.wav;55;Incorrect;13
+514;ASMDD/speaker_30_b_100/55_N.wav;55;Incorrect;30
+515;ASMDD/speaker_25_b_100/55_N.wav;55;Incorrect;25
+516;ASMDD/speaker_67_g_50/55_N.wav;55;Incorrect;67
+517;ASMDD/speaker_71_g_50/55_N.wav;55;Incorrect;71
+518;ASMDD/speaker_14_b_100/82.wav;82;Correct;14
+519;ASMDD/speaker_00_g_100/82.wav;82;Correct;0
+520;ASMDD/speaker_01_g_100/82.wav;82;Correct;1
+521;ASMDD/speaker_02_g_100/82.wav;82;Correct;2
+522;ASMDD/speaker_03_b_100/82.wav;82;Correct;3
+523;ASMDD/speaker_05_g_100/82.wav;82;Correct;5
+524;ASMDD/speaker_09_b_100/82.wav;82;Correct;9
+525;ASMDD/speaker_10_b_100/82.wav;82;Correct;10
+526;ASMDD/speaker_11_b_100/82.wav;82;Correct;11
+527;ASMDD/speaker_12_b_100/82.wav;82;Correct;12
+528;ASMDD/speaker_15_b_100/82.wav;82;Correct;15
+529;ASMDD/speaker_16_b_100/82.wav;82;Correct;16
+530;ASMDD/speaker_17_b_100/82.wav;82;Correct;17
+531;ASMDD/speaker_19_b_100/82.wav;82;Correct;19
+532;ASMDD/speaker_18_b_100/82.wav;82;Correct;18
+533;ASMDD/speaker_20_b_100/82.wav;82;Correct;20
+534;ASMDD/speaker_21_b_100/82.wav;82;Correct;21
+535;ASMDD/speaker_22_b_100/82.wav;82;Correct;22
+536;ASMDD/speaker_23_b_100/82.wav;82;Correct;23
+537;ASMDD/speaker_30_b_100/82.wav;82;Correct;30
+538;ASMDD/speaker_29_b_100/82.wav;82;Correct;29
+539;ASMDD/speaker_27_b_100/82.wav;82;Correct;27
+540;ASMDD/speaker_25_b_100/82.wav;82;Correct;25
+541;ASMDD/speaker_66_g_50/82.wav;82;Correct;66
+542;ASMDD/speaker_67_g_50/82.wav;82;Correct;67
+543;ASMDD/speaker_72_b_50/82.wav;82;Correct;72
+544;ASMDD/speaker_80_g_50/82.wav;82;Correct;80
+545;ASMDD/speaker_04_g_100/82_N.wav;82;Incorrect;4
+546;ASMDD/speaker_07_b_100/82_N.wav;82;Incorrect;7
+547;ASMDD/speaker_06_g_100/82_N.wav;82;Incorrect;6
+548;ASMDD/speaker_08_g_100/82_N.wav;82;Incorrect;8
+549;ASMDD/speaker_13_b_100/82_N.wav;82;Incorrect;13
+550;ASMDD/speaker_28_b_100/82_N.wav;82;Incorrect;28
+551;ASMDD/speaker_26_g_100/82_N.wav;82;Incorrect;26
+552;ASMDD/speaker_71_g_50/82_N.wav;82;Incorrect;71
+553;ASMDD/speaker_14_b_100/21.wav;21;Correct;14
+554;ASMDD/speaker_01_g_100/21.wav;21;Correct;1
+555;ASMDD/speaker_02_g_100/21.wav;21;Correct;2
+556;ASMDD/speaker_03_b_100/21.wav;21;Correct;3
+557;ASMDD/speaker_05_g_100/21.wav;21;Correct;5
+558;ASMDD/speaker_09_b_100/21.wav;21;Correct;9
+559;ASMDD/speaker_11_b_100/21.wav;21;Correct;11
+560;ASMDD/speaker_12_b_100/21.wav;21;Correct;12
+561;ASMDD/speaker_15_b_100/21.wav;21;Correct;15
+562;ASMDD/speaker_16_b_100/21.wav;21;Correct;16
+563;ASMDD/speaker_19_b_100/21.wav;21;Correct;19
+564;ASMDD/speaker_27_b_100/21.wav;21;Correct;27
+565;ASMDD/speaker_26_g_100/21.wav;21;Correct;26
+566;ASMDD/speaker_25_b_100/21.wav;21;Correct;25
+567;ASMDD/speaker_31_g_50/21.wav;21;Correct;31
+568;ASMDD/speaker_41_b_50/21.wav;21;Correct;41
+569;ASMDD/speaker_45_b_50/21.wav;21;Correct;45
+570;ASMDD/speaker_51_b_50/21.wav;21;Correct;51
+571;ASMDD/speaker_53_b_50/21.wav;21;Correct;53
+572;ASMDD/speaker_54_b_50/21.wav;21;Correct;54
+573;ASMDD/speaker_55_b_50/21.wav;21;Correct;55
+574;ASMDD/speaker_61_b_50/21.wav;21;Correct;61
+575;ASMDD/speaker_62_b_50/21.wav;21;Correct;62
+576;ASMDD/speaker_63_g_50/21.wav;21;Correct;63
+577;ASMDD/speaker_64_b_50/21.wav;21;Correct;64
+578;ASMDD/speaker_65_b_50/21.wav;21;Correct;65
+579;ASMDD/speaker_68_b_50/21.wav;21;Correct;68
+580;ASMDD/speaker_69_b_50/21.wav;21;Correct;69
+581;ASMDD/speaker_70_g_50/21.wav;21;Correct;70
+582;ASMDD/speaker_73_b_50/21.wav;21;Correct;73
+583;ASMDD/speaker_74_b_50/21.wav;21;Correct;74
+584;ASMDD/speaker_75_b_50/21.wav;21;Correct;75
+585;ASMDD/speaker_76_b_50/21.wav;21;Correct;76
+586;ASMDD/speaker_77_b_50/21.wav;21;Correct;77
+587;ASMDD/speaker_78_b_50/21.wav;21;Correct;78
+588;ASMDD/speaker_79_g_50/21.wav;21;Correct;79
+589;ASMDD/speaker_84_g_50/21.wav;21;Correct;84
+590;ASMDD/speaker_85_g_50/21.wav;21;Correct;85
+591;ASMDD/speaker_86_b_50/21.wav;21;Correct;86
+592;ASMDD/speaker_87_b_50/21.wav;21;Correct;87
+593;ASMDD/speaker_88_g_50/21.wav;21;Correct;88
+594;ASMDD/speaker_89_b_50/21.wav;21;Correct;89
+595;ASMDD/speaker_91_b_50/21.wav;21;Correct;91
+596;ASMDD/speaker_94_b_50/21.wav;21;Correct;94
+597;ASMDD/speaker_95_b_50/21.wav;21;Correct;95
+598;ASMDD/speaker_97_g_50/21.wav;21;Correct;97
+599;ASMDD/speaker_98_b_50/21.wav;21;Correct;98
+600;ASMDD/speaker_99_b_50/21.wav;21;Correct;99
+601;ASMDD/speaker_32_g_50/021.wav;21;Correct;32
+602;ASMDD/speaker_33_g_50/021.wav;21;Correct;33
+603;ASMDD/speaker_34_b_50/021.wav;21;Correct;34
+604;ASMDD/speaker_35_b_50/021.wav;21;Correct;35
+605;ASMDD/speaker_36_b_50/021.wav;21;Correct;36
+606;ASMDD/speaker_37_g_50/021.wav;21;Correct;37
+607;ASMDD/speaker_07_b_100/21_N.wav;21;Incorrect;7
+608;ASMDD/speaker_06_g_100/21_N.wav;21;Incorrect;6
+609;ASMDD/speaker_08_g_100/21_N.wav;21;Incorrect;8
+610;ASMDD/speaker_17_b_100/21_N.wav;21;Incorrect;17
+611;ASMDD/speaker_18_b_100/21_N.wav;21;Incorrect;18
+612;ASMDD/speaker_20_b_100/21_N.wav;21;Incorrect;20
+613;ASMDD/speaker_21_b_100/21_N.wav;21;Incorrect;21
+614;ASMDD/speaker_22_b_100/21_N.wav;21;Incorrect;22
+615;ASMDD/speaker_30_b_100/21_N.wav;21;Incorrect;30
+616;ASMDD/speaker_29_b_100/21_N.wav;21;Incorrect;29
+617;ASMDD/speaker_28_b_100/21_N.wav;21;Incorrect;28
+618;ASMDD/speaker_46_b_50/21_N.wav;21;Incorrect;46
+619;ASMDD/speaker_52_b_50/21_N.wav;21;Incorrect;52
+620;ASMDD/speaker_81_g_50/21_N.wav;21;Incorrect;81
+621;ASMDD/speaker_82_b_50/21_N.wav;21;Incorrect;82
+622;ASMDD/speaker_83_b_50/21_N.wav;21;Incorrect;83
+623;ASMDD/speaker_90_b_50/21_N.wav;21;Incorrect;90
+624;ASMDD/speaker_00_g_100/21_N.wav;21;Incorrect;0
+625;ASMDD/speaker_04_g_100/21_N.wav;21;Incorrect;4
+626;ASMDD/speaker_14_b_100/64.wav;64;Correct;14
+627;ASMDD/speaker_00_g_100/64.wav;64;Correct;0
+628;ASMDD/speaker_01_g_100/64.wav;64;Correct;1
+629;ASMDD/speaker_02_g_100/64.wav;64;Correct;2
+630;ASMDD/speaker_03_b_100/64.wav;64;Correct;3
+631;ASMDD/speaker_04_g_100/64.wav;64;Correct;4
+632;ASMDD/speaker_05_g_100/64.wav;64;Correct;5
+633;ASMDD/speaker_06_g_100/64.wav;64;Correct;6
+634;ASMDD/speaker_08_g_100/64.wav;64;Correct;8
+635;ASMDD/speaker_09_b_100/64.wav;64;Correct;9
+636;ASMDD/speaker_12_b_100/64.wav;64;Correct;12
+637;ASMDD/speaker_13_b_100/64.wav;64;Correct;13
+638;ASMDD/speaker_15_b_100/64.wav;64;Correct;15
+639;ASMDD/speaker_16_b_100/64.wav;64;Correct;16
+640;ASMDD/speaker_17_b_100/64.wav;64;Correct;17
+641;ASMDD/speaker_18_b_100/64.wav;64;Correct;18
+642;ASMDD/speaker_21_b_100/64.wav;64;Correct;21
+643;ASMDD/speaker_23_b_100/64.wav;64;Correct;23
+644;ASMDD/speaker_30_b_100/64.wav;64;Correct;30
+645;ASMDD/speaker_28_b_100/64.wav;64;Correct;28
+646;ASMDD/speaker_26_g_100/64.wav;64;Correct;26
+647;ASMDD/speaker_25_b_100/64.wav;64;Correct;25
+648;ASMDD/speaker_66_g_50/64.wav;64;Correct;66
+649;ASMDD/speaker_72_b_50/64.wav;64;Correct;72
+650;ASMDD/speaker_80_g_50/64.wav;64;Correct;80
+651;ASMDD/speaker_07_b_100/64_N.wav;64;Incorrect;7
+652;ASMDD/speaker_10_b_100/64_N.wav;64;Incorrect;10
+653;ASMDD/speaker_11_b_100/64_N.wav;64;Incorrect;11
+654;ASMDD/speaker_19_b_100/64_N.wav;64;Incorrect;19
+655;ASMDD/speaker_20_b_100/64_N.wav;64;Incorrect;20
+656;ASMDD/speaker_22_b_100/64_N.wav;64;Incorrect;22
+657;ASMDD/speaker_27_b_100/64_N.wav;64;Incorrect;27
+658;ASMDD/speaker_67_g_50/64_N.wav;64;Incorrect;67
+659;ASMDD/speaker_71_g_50/64_N.wav;64;Incorrect;71
+660;ASMDD/speaker_01_g_100/95.wav;95;Correct;1
+661;ASMDD/speaker_03_b_100/95.wav;95;Correct;3
+662;ASMDD/speaker_11_b_100/95.wav;95;Correct;11
+663;ASMDD/speaker_15_b_100/95.wav;95;Correct;15
+664;ASMDD/speaker_18_b_100/95.wav;95;Correct;18
+665;ASMDD/speaker_20_b_100/95.wav;95;Correct;20
+666;ASMDD/speaker_21_b_100/95.wav;95;Correct;21
+667;ASMDD/speaker_22_b_100/95.wav;95;Correct;22
+668;ASMDD/speaker_23_b_100/95.wav;95;Correct;23
+669;ASMDD/speaker_29_b_100/95.wav;95;Correct;29
+670;ASMDD/speaker_27_b_100/95.wav;95;Correct;27
+671;ASMDD/speaker_26_g_100/95.wav;95;Correct;26
+672;ASMDD/speaker_25_b_100/95.wav;95;Correct;25
+673;ASMDD/speaker_80_g_50/95.wav;95;Correct;80
+674;ASMDD/speaker_07_b_100/95_N.wav;95;Incorrect;7
+675;ASMDD/speaker_06_g_100/95_N.wav;95;Incorrect;6
+676;ASMDD/speaker_08_g_100/95_N.wav;95;Incorrect;8
+677;ASMDD/speaker_09_b_100/95_N.wav;95;Incorrect;9
+678;ASMDD/speaker_10_b_100/95_N.wav;95;Incorrect;10
+679;ASMDD/speaker_12_b_100/95_N.wav;95;Incorrect;12
+680;ASMDD/speaker_13_b_100/95_N.wav;95;Incorrect;13
+681;ASMDD/speaker_16_b_100/95_N.wav;95;Incorrect;16
+682;ASMDD/speaker_17_b_100/95_N.wav;95;Incorrect;17
+683;ASMDD/speaker_19_b_100/95_N.wav;95;Incorrect;19
+684;ASMDD/speaker_30_b_100/95_N.wav;95;Incorrect;30
+685;ASMDD/speaker_28_b_100/95_N.wav;95;Incorrect;28
+686;ASMDD/speaker_66_g_50/95_N.wav;95;Incorrect;66
+687;ASMDD/speaker_71_g_50/95_N.wav;95;Incorrect;71
+688;ASMDD/speaker_72_b_50/95_N.wav;95;Incorrect;72
+689;ASMDD/speaker_14_b_100/95_N.wav;95;Incorrect;14
+690;ASMDD/speaker_00_g_100/95_N.wav;95;Incorrect;0
+691;ASMDD/speaker_01_g_100/95_N.wav;95;Incorrect;1
+692;ASMDD/speaker_02_g_100/95_N.wav;95;Incorrect;2
+693;ASMDD/speaker_04_g_100/95_N.wav;95;Incorrect;4
+694;ASMDD/speaker_05_g_100/95_N.wav;95;Incorrect;5
