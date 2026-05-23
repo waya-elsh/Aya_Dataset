@@ -3,12 +3,21 @@ import librosa
 import numpy as np
 from collections import Counter
 import joblib
+import matplotlib.pyplot as plt
 
 from sklearn.model_selection import StratifiedKFold
 from sklearn.preprocessing import RobustScaler
 from sklearn.utils.class_weight import compute_class_weight
 from sklearn.linear_model import LogisticRegression
-from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, confusion_matrix
+from sklearn.metrics import (
+    accuracy_score,
+    precision_score,
+    recall_score,
+    f1_score,
+    confusion_matrix,
+    roc_auc_score,
+    roc_curve
+)
 
 CSV_PATH = "MetadataAya.csv"
 MAX_FRAMES = 40
@@ -45,15 +54,12 @@ for _, row in metadata.iterrows():
             audio = audio / max_val
 
         audio_trimmed, _ = librosa.effects.trim(audio, top_db=20)
-        
 
         mfcc = librosa.feature.mfcc(
             y=audio_trimmed,
             sr=sr,
             n_mfcc=13
-            
         )
-       
 
         if mfcc.shape[1] < MAX_FRAMES:
             pad_width = MAX_FRAMES - mfcc.shape[1]
@@ -64,7 +70,6 @@ for _, row in metadata.iterrows():
         X_list.append(mfcc)
         y_list.append(label)
         word_list.append(str(word_id).strip())
-     
 
     except Exception as e:
         print("Skipped:", file_path)
@@ -101,11 +106,17 @@ acc_scores = []
 prec_scores = []
 rec_scores = []
 f1_scores = []
+auc_scores = []
+sens_scores = []
+spec_scores = []
 all_conf_matrices = []
 
 best_f1 = 0
 best_model = None
 best_scaler = None
+
+roc_y_true = []
+roc_y_prob = []
 
 fold_num = 1
 
@@ -171,28 +182,44 @@ for train_idx, test_idx in skf.split(X, stratify_col):
     )
 
     model.fit(X_train_scaled, y_train_bal)
+
     y_pred = model.predict(X_test_scaled)
+    y_prob = model.predict_proba(X_test_scaled)[:, 1]
 
     # -------- metrics --------
     acc = accuracy_score(y_test, y_pred)
     prec = precision_score(y_test, y_pred, zero_division=0)
     rec = recall_score(y_test, y_pred, zero_division=0)
     f1 = f1_score(y_test, y_pred, zero_division=0)
+    auc = roc_auc_score(y_test, y_prob)
 
     cm = confusion_matrix(y_test, y_pred)
+    tn, fp, fn, tp = cm.ravel()
+
+    sensitivity = tp / (tp + fn)
+    specificity = tn / (tn + fp)
 
     print("Confusion Matrix:")
     print(cm)
-    print("Accuracy:", round(acc, 4))
-    print("Precision:", round(prec, 4))
-    print("Recall:", round(rec, 4))
-    print("F1:", round(f1, 4))
+    print("Accuracy    :", round(acc, 4))
+    print("Precision   :", round(prec, 4))
+    print("Recall      :", round(rec, 4))
+    print("F1 Score    :", round(f1, 4))
+    print("Sensitivity :", round(sensitivity, 4))
+    print("Specificity :", round(specificity, 4))
+    print("ROC AUC     :", round(auc, 4))
 
     acc_scores.append(acc)
     prec_scores.append(prec)
     rec_scores.append(rec)
     f1_scores.append(f1)
+    auc_scores.append(auc)
+    sens_scores.append(sensitivity)
+    spec_scores.append(specificity)
     all_conf_matrices.append(cm)
+
+    roc_y_true.extend(y_test)
+    roc_y_prob.extend(y_prob)
 
     # -------- save best fold --------
     if f1 > best_f1:
@@ -209,14 +236,33 @@ print("\n==============================")
 print("FINAL LOGISTIC RESULTS")
 print("==============================")
 
-print("Mean Accuracy :", round(np.mean(acc_scores), 4))
-print("Mean Precision:", round(np.mean(prec_scores), 4))
-print("Mean Recall   :", round(np.mean(rec_scores), 4))
-print("Mean F1       :", round(np.mean(f1_scores), 4))
+print("Mean Accuracy    :", round(np.mean(acc_scores), 4))
+print("Mean Precision   :", round(np.mean(prec_scores), 4))
+print("Mean Recall      :", round(np.mean(rec_scores), 4))
+print("Mean F1 Score    :", round(np.mean(f1_scores), 4))
+print("Mean Sensitivity :", round(np.mean(sens_scores), 4))
+print("Mean Specificity :", round(np.mean(spec_scores), 4))
+print("Mean ROC AUC     :", round(np.mean(auc_scores), 4))
 
 total_cm = np.sum(all_conf_matrices, axis=0)
 print("\nSummed Confusion Matrix:")
 print(total_cm)
+
+# ==========================
+# ROC CURVE PLOT
+# ==========================
+fpr, tpr, thresholds = roc_curve(roc_y_true, roc_y_prob)
+
+plt.figure(figsize=(7,5))
+plt.plot(fpr, tpr, label="Logistic Regression ROC Curve")
+plt.plot([0,1],[0,1], linestyle='--')
+plt.xlabel("False Positive Rate")
+plt.ylabel("True Positive Rate")
+plt.title("ROC Curve")
+plt.legend()
+plt.grid(True)
+plt.savefig("roc_curve.png")
+plt.show()
 
 # ==========================
 # SAVE BEST MODEL
@@ -238,3 +284,4 @@ print("Saved files:")
 print("final_model.pkl")
 print("final_scaler.pkl")
 print("mfcc_reference.npy")
+print("roc_curve.png")
